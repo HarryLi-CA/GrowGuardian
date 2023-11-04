@@ -4,20 +4,17 @@ import './DashBoard.css';
 function DashBoard() {
     return (
         <div className='DashBoard'>
-            <header className="App-header">
-                <img src={logo} className="App-logo" alt="logo" />
-                <p>
-                    Edit <code>src/App.js</code> and save to reload.
-                </p>
-                <a
-                    className="App-link"
-                    href="https://reactjs.org"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    Learn React
-                </a>
-            </header>
+            <ul class = "displayPlants">
+            <li class = "plantInfo" >
+                <div class = "plantImg">
+                    <img src='https://dsk4t6ov5vq8n.cloudfront.net/uploads/PBS-Articles/2022/The-Green-Planet/Episode-4-photos/Sized-photos/The_Green_Planet_04_004.jpg'/>
+                </div>
+                <br/>
+                <h2>
+                    Cactus
+                </h2>
+            </li>
+            </ul>
         </div>
     );
 }
