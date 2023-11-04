@@ -1,10 +1,36 @@
 .App nav{
-  background-color: whitesmoke;
+  background-color: darkgreen;
   position: fixed;
   width:100%;
-  
 }
+.App div{
+  display: flex;
+  padding: 1em 4em;
+} 
 .App nav button{
   color: white;
-  float: right;
+  margin-left: auto;
+  padding: 0;
+  width: 8em;
+  background-color: #669074;
+  border: none;
+  border-radius: 2em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.App nav button:hover {
+  background-color: #527d60; /* Slightly darker shade on hover */
+}
+
+/* Additional Styles */
+.App nav button.secondary {
+  background-color: #BDD8C6; /* Use your secondary color */
+}
+
+/* Example for active state */
+.App nav button.active {
+  background-color: #4A8B6E; /* Adjust for active state if needed */
+}
+.spacer{
+  height: 2em;
 }
