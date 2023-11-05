@@ -1,7 +1,7 @@
 import DashBoard from './DashBoard';
 import "./App.css";
 import { useAuth0 } from "@auth0/auth0-react";
-//import PlantControl from './PlantControl';
+import PlantControl from './PlantControl';
 
 function App() {
   const { logout } = useAuth0();
@@ -16,7 +16,7 @@ function App() {
         </div>
       </nav>
       <div class ="spacer"></div>
-      <DashBoard />
+      <PlantControl />
     </div>
   );
 }
