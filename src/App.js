@@ -1,6 +1,6 @@
 import DashBoard from './DashBoard';
 import "./App.css";
-//import PlantControl from './PlantControl';
+import PlantControl from './PlantControl';
 
 function App() {
   return (
@@ -14,7 +14,7 @@ function App() {
         </div>
       </nav>
       <div class ="spacer"></div>
-      <DashBoard />
+      <PlantControl />
     </div>
   );
 }
